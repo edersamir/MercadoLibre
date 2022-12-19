@@ -1,7 +1,14 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-app.listen(3000, ()=>console.log("Servidor funcionando"));
+
+
+//para local: 
+//app.listen(3000, ()=>console.log("Servidor funcionando"));
+//Para nube:
+const port = process.env.PORT||3001;
+app.listen(port, ()=>console.log("Servidor funcionandoen el puerto ${port}"));
+
 
 const publicPath = path.resolve(__dirname,'./public');
 
