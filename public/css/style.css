@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+header {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.barra-primera {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 10px;
+}
+
+.barra-segunda {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 10px;
+}
+
+.barra-segunda ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.barra-segunda li {
+  margin: 0 5px;
+  text-decoration: none;
+  list-style: none;
+}
+.primer-titular {
+  font-size: 10px;
+  color: rgb(22, 34, 34);
+  width: 60%;
+}
+
+.left-navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222222;
+  display: inline-block;
+}
+.right-navbar {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  display: inline-block;
+}
+
+.titulares {
+  font-size: 24px;
+  text-align: center;
+}
+.precios {
+  font-size: 18px;
+  text-align: center;
+}
+
+.descuentos {
+  font-size: 16px;
+  text-align: center;
+}
+
+.descripciones {
+  font-size: 16px;
+  text-align: center;
+}
+
+.navegacion {
+  background-color: #eac926;
+}
+
+.logo {
+  background-color: #eac926;
+  width: 20%;
+  height: 20%;
+}
+.search-bar {
+  display: flex;
+  padding: 2px;
+
+  width: 50%;
+}
+section {
+  width: 90vw;
+}
+.articulos {
+  margin-bottom: 10px;
+  border: solid 3px #ebebeb;
+  padding: 15px;
+  width: 30%;
+  height: 30%;
+}
+.seccion1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  margin: 4px;
+  justify-content: space-between;
+}
+
+.seccion2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  margin: 4px;
+  justify-content: space-around;
+}
+
+
+
+.imagenes-articulos {
+  width: 50%;
+  height: 50%;
+}
+.precio-descuento{
+   display: flex;
+}
+
+.precio-descuento .precios{
+   width: 30%;
+
+}
+
+.precio-descuento .descuentos{
+   width: 70%;
+   color: green;
+
+}
+.texto-articulos{
+   display: flex;
+   flex-direction: column;
+   justify-content:start;
+
+}
+
+.shipping {
+   color: green;
+   border: solid 1px #ebebeb;
+   padding: 1%;
+   border-radius: 50%;
+   width: 10%;
+   height: 10%;
+   align-self: center;
+ }
